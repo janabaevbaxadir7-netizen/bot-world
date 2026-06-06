@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["python313", "libpq"]
-
-[phases.install]
-cmds = ["pip install --no-cache-dir -r requirements.txt"]
